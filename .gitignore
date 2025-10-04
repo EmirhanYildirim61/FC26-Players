@@ -1,0 +1,5 @@
+# Veri Dosyaları
+*.csv
+
+# Python'un otomatik oluşturduğu dosyalar
+__pycache__/
