@@ -4,11 +4,14 @@ Bu proje, Python ve Pandas kütüphanesi kullanılarak geliştirilmiş bir konso
 
 ## Nasıl Çalıştırılır?
 
-1. Gerekli kütüphaneyi yükleyin:
+1. Gerekli veritabanını yükleyin ve players.py ile aynı klasör içine yerleştirin:
+     https://www.kaggle.com/datasets/rovnez/fc-26-fifa-26-player-data
+
+2. Gerekli kütüphaneyi yükleyin:
    ```bash
    pip install pandas
 
-2. Projeyi çalıştırın:
+3. Projeyi çalıştırın:
    ```bash
    python players.py
 
