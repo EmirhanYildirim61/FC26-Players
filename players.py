@@ -2,7 +2,7 @@ import pandas as pd
 pd.set_option("display.max_rows", None)
 pd.set_option("display.max_colwidth", None)
 
-file_path = "FC26_20250921"
+file_path = "FC26_20250921.csv"
 
 try:
     df = pd.read_csv(file_path)
@@ -35,6 +35,7 @@ def save(wanted_save):
             print("Geçerli bir sayı girmediniz!\n")
 
 def want_player():
+    global player_data
     wanted_player_inp = input("\nBilgilerini istediğiniz oyuncunun ismini giriniz: ")
     wanted_player = player_data[player_data["long_name"].str.contains(wanted_player_inp, case=False)]
     print("\n")
